@@ -1,0 +1,78 @@
+.font{
+     font-family: 'Caveat Brush';font-size: 30px;
+}
+.fonta{
+     font-family: 'Delius Swash Caps';font-size: 20px;
+}
+
+
+
+
+.hero{
+    background: repeating-linear-gradient(90deg #91cdf9, #cdecf8, #f4f4f4);
+    padding: 60px 20px;
+}
+.nav-item{
+    margin-right: 20px;
+    padding-right: 20px;
+    
+}
+.hero-img{
+    max-width: 100%;
+    height: auto;
+}
+.hero {
+  margin-top: 0;
+  padding-top: 20px; /* یا کمتر */
+}
+.icon {
+  font-size: 4rem;       /* Make icon bigger */
+  float: left;           /* Align icon to the left */
+  margin-right: 15px;    /* Space between icon and text */
+  color: #ecf0f6;        /* Example color (Bootstrap primary) */
+  width: auto;           /* Let icon take only needed width */
+  height: auto;
+  line-height: 1;        /* Avoid vertical spacing issues */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #0d6efd; /* Bootstrap blue */
+  border-radius: 50%;
+  background-size: 50% 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 3rem;
+  height: 3rem;
+  opacity: 1; /* شفافیت کامل */
+}
+.bg{
+background-image: url(https://img.freepik.com/premium-vector/vector-illustration-about-contact-us-concept-customer-service-online-support_675567-8394.jpg);
+background-position: center;
+background-size: cover;
+}
+.mycard {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.mycard:hover {
+  transform: translateX(20px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+}
+.my-card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.my-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px #098eef;
+ color: aqua;
+}
+
+
+footer{
+    background-color: #f8f9fa;
+    padding:20px 0;
+    text-align: center;
+}
